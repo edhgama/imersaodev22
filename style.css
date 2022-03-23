@@ -1,0 +1,77 @@
+body {
+  background: linear-gradient(322.85deg,#000035 14.32%,#3C22B2 88.02%);
+  font-family:'Poppins', sans-serif;
+}
+
+.container{
+  background-color: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius:24px;
+  box-shadow: 6px 6px 6px #5555FF;
+  padding: 64px;
+  
+}
+
+.perfil {
+  display:flex;
+  justify-content:space-between;
+}
+
+.perfil-container{
+  display:flex;
+  line-height: 20px;
+}
+
+.perfil-foto{
+  border-radius:460px;
+  max-height:160px;
+}
+
+.titulo{
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight:700;
+  font-size: 36px;
+}
+
+.titulo h3{
+  font-weight:normal;
+  font-size: 24px;
+}
+
+.btn {
+  align-self:flex-end;
+}
+
+.projetos {
+  display:flex;
+  flex-direction:column;
+  background: linear-gradient(22.85deg,#9999FF 14.32%, #AADDFF 88.02%);
+  margin-top:44px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 2px 2px 4px rgba(16,16,16,0.42);
+}
+
+.projetos-titulo {
+  text-align:center;
+  list-style:none;
+  font-weight:700;
+  font-size:36px;
+}
+
+.projetos li {
+  list-style-type: none;
+  font-size:24px;
+  line-height:45px;
+  text-decoration:none;
+}
+
+.projetos a{
+  color: #1C1C1C;
+  text-decoration: none;
+  
+}
